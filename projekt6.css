@@ -1,0 +1,55 @@
+
+
+
+.navbar li, a {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #4e5359;
+  text-decoration: none;
+}
+
+.navbar{
+  list-style: none;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin-bottom: 10px;
+  padding-top:57px;
+}
+
+img{
+  width:1.5em;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  position:absolute;
+  bottom: 668.25px;
+}
+
+button{
+
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1em;
+  padding: 15px !important;
+  background-color: #1176BC;
+  color: #ffffff !important;
+  border-radius: 50px;
+  border: 1px solid #1176BC;
+  margin-left: 20px;
+}
+
+.logo {
+width: 313px;
+height; auto;
+padding: 60px;
+top: -5%;
+right: 65%;
+}
