@@ -1,11 +1,13 @@
-
-
+*{
+  cursor: pointer;
+}
 
 .navbar li, a {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   color: #4e5359;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .navbar{
@@ -45,6 +47,14 @@ img{
   border-radius: 50px;
   border: 1px solid #1176BC;
   margin-left: 20px;
+  cursor: pointer;
+}
+
+.btn:hover{
+
+background-color: #ffffff;
+color: #1176BC !important;
+
 }
 
 .logo {

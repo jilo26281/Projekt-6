@@ -1,3 +1,3 @@
 function openLink() {
-  document.getElementById("myLink").outerHTML="https://quadsat.com/request-a-demo/";
+  window.location.href='https://quadsat.com/request-a-demo/';
 }
