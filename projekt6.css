@@ -1,5 +1,68 @@
-*{
-  cursor: pointer;
+
+.header{
+  border:0;
+  margin:0px;
+  padding:10px;
+  background: #1176BC;
+  color: white;
+  font-size: 14px;
+  overflow: auto;
+  position: relative;
+
+}
+
+.envelope{
+  top: -4.667px;right: 142.5px;
+}
+
+.mail{
+  top: -8px;
+  right: -52px;
+}
+.phone{
+  top: -8.667px;
+  right: -100px;
+
+}
+
+.phonepic{
+  right: 47.45px;
+  top: -0.667px;
+  left: -26px;
+}
+
+.newsletter{
+  left: 1758px;
+  top: -9px;
+}
+
+.linkedin{
+  left: 1776px;
+  top: 3.333px;
+  height:36px;
+  width: 42px;
+  display: inline-block;
+}
+
+.facebook{
+ top: 1.333px;
+ left: 1771px;
+ height:33px;
+ width: 40px;
+ display: inline-block;
+}
+
+.twitter{
+ left: 1771px;
+ top: 4.333px;
+ height:37px;
+ width: 45px;
+ display: inline-block;
+}
+
+.header a{
+  color: white;
+  position:relative;
 }
 
 .navbar li, a {
@@ -33,6 +96,7 @@ img{
   position:absolute;
   top: 8.333px;
   bottom: 668.25px;
+
 }
 
 .btn{
@@ -61,8 +125,9 @@ color: #1176BC !important;
 width: 200px;
 height; auto;
 padding: 60px;
-top: -3%;
-right: 67.5%;
+top: 111.533px;
+left: 574px;
+padding: 0px;
 }
 
 .dropbtn {
