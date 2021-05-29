@@ -1,0 +1,424 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+ margin: 0;
+}
+/*Navbar Starter her*/
+.header{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border:0;
+  background: #1176BC;
+  color: white;
+  font-size: 14px;
+}
+
+.envelope{
+  top: -4.667px;left: -30px;
+}
+
+.mail{
+  top: -8px;
+  left: 300px;
+}
+.phone{
+  top: -8.667px;
+  left: 335px;
+
+}
+
+.phonepic{
+  top: -0.667px;
+  left: -26px;
+}
+
+.newsletter{
+  left: 1000px;
+  top: -9px;
+}
+
+.linkedin{
+  left: 1040px;
+  top: 3.333px;
+  height:36px;
+  width: 42px;
+  display: inline-block;
+}
+
+.facebook{
+ top: 1.333px;
+ left: 1020px;
+ height:33px;
+ width: 40px;
+ display: inline-block;
+}
+
+.twitter{
+ left: 1000px;
+ top: 4.333px;
+ height:37px;
+ width: 45px;
+ display: inline-block;
+}
+
+.header a{
+  color: white;
+  position:relative;
+}
+
+.navbar li, a {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #4e5359;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  padding-top:57px;
+}
+
+img{
+  width:1.5em;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  position:absolute;
+  top: 8.333px;
+  bottom: 668.25px;
+
+}
+
+
+
+.btn{
+
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1em;
+  padding: 15px !important;
+  background-color: #1176BC;
+  color: #ffffff !important;
+  border-radius: 50px;
+  border: 1px solid #1176BC;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+.btn:hover{
+
+background-color: #ffffff;
+color: #1176BC !important;
+
+
+
+}
+
+.logo {
+width: 200px;
+height; auto;
+padding: 0px;
+top: 65px;
+left: 300px;
+}
+
+.dropbtn {
+  color: #4e5359;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background-color:#F2F2F2D9;
+  z-index: 1;
+  position: fixed;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  color: #4e5359;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #1176BC; color: white; border-radius: 10px;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content li:first-child > a {
+border-radius: 10px 10px 0px 0px;
+}
+.dropdown-content li:last-child > a {
+border-radius: 0px 0px 10px 10px;
+}
+
+/*Tekst og billeder main section*/
+
+.Overskrift {
+  top: -40px;
+  padding-left: 330px;
+}
+
+.main {
+  margin: 30px;
+  padding-left: 700px;
+}
+
+.container1 {
+  display: block;
+  align-items: right;
+  justify-content: right;
+}
+
+.ULFoto {
+  width: 250px;
+  height; auto;
+  left: 330px;
+  top: 300px;
+}
+
+.container2 {
+  display: block;
+  align-items: center;
+  justify-content: center
+  padding-right: 500px;
+}
+
+.DroneFoto{
+  width: 250px;
+  height; auto;
+  left: 330px;
+  top: 550px;
+}
+
+.container3 {
+  display: block;
+  align-items: center;
+  justify-content: center
+}
+
+.KodeFoto {
+  width: 250px;
+  height; auto;
+  left: 330px;
+  top: 800px;
+}
+
+/*Kontakt formular*/
+
+input[type=text], select, textarea {
+  width: 60%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 30px;
+  resize: vertical;
+  border-radius: 20px;
+}
+
+input[type=submit] {
+  background-color: #1176BC;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+  border-color: #1176BC;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 10px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.container p{
+  color: #1176BC;
+  font-family: 'Lato', sans-serif;
+}
+
+#subject {
+  height:150px;
+}
+
+@media screen and (max-width: 600px) {
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*Quote slideshow*/
+
+* {box-sizing: border-box}
+body {font-family: 'Lato', sans-serif}
+
+
+.slideshow-container {
+  position: relative;
+  background: #000000;
+  color: white;
+}
+
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #000000;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.active, .dot:hover {
+  background-color: #1176BC;
+}
+
+/*To top button*/
+
+#myBtn {
+  display: block;
+  position: fixed;
+  bottom: 75px;
+  right: 150px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #1176BC;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 10px;
+  transform: scale(2.5, 1.5);
+  font-family: 'Lato', sans-serif;
+}
+
+#myBtn:hover {
+  color: #000000;
+  background-color: #1176BC;
+  font-family: 'Lato', sans-serif;
+}
+
+/*Footer*/
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.footer ul{
+ display: inline-block;
+ vertical-align: top;
+ text-align: left;
+ list-style-type: none;
+}
+
+.footer ul a{
+  color:white;
+}
+
+.footer li a {
+color: #FFFFFFA6;
+line-height: 1.5;
+}
+
+.footer li a:hover{
+color: white;
+}
+
+.footer li:first-child {
+padding-top: 20px;
+}
+
+.logowhite {
+  width: 200px;
+  height; auto;
+  left: 250px;
+  top: 24.333px;
+}

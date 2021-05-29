@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuadSat Testing proces</title>
+    <script src=Tp.js></script>
+    <link rel="stylesheet" type="text/css" href="Tp.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  </head>
+<!--Navbar Starter her -->
+  <body>
+    <div class="header">
+     <a class="mail" href="mailto:sales@quadsat.com"><img class="envelope" src="envelope.png">sales@quadsat.com</a>
+     <a class="phone"><img class="phonepic" src="phone.png">+45 49 49 49 94</a>
+     <a class="newsletter" href="https://quadsat.com/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjYzMSIsInRvZ2dsZSI6ZmFsc2V9">Sign up to our newsletter</a>
+     <a class="linkedin" href="https://www.linkedin.com/company/10514815"><img src="linkedin.png" title="LinkedIn" alt="LI"></a>
+     <a class="facebook" href="https://www.facebook.com/quadsat"><img src="facebook.png" title="Facebook" alt="FB"></a>
+     <a class="twitter" href="https://www.twitter.com/quadsat"><img src="twitter.png" title="Twitter" alt="Twt"></a>
+    </div>
+
+    <a href="https://quadsat.com/"><img class="logo" src="Quadsatlogo.png"></a>
+  <nav class="navbar">
+<!--Dropdown menu-->
+    <ul>
+  <li><a href="https://quadsat.com/products/"><div class="dropdown">
+    <button class="dropbtn">Products<img src="Quadsatarrow.png"></button></a>
+    <div class="dropdown-content">
+      <a href="https://quadsat.com/products/testing-as-a-service/">Testing as a Service</a>
+      <a href="https://quadsat.com/products/quadsat-system/">QuadSat System</a>
+    </div>
+  </div> </li>
+
+  <li><a href="#inprogress"><div class="dropdown">
+    <button class="dropbtn">Process<img src="Quadsatarrow.png"></button></a>
+    <div class="dropdown-content">
+      <a href="#">Testing Process</a>
+      <a href="#">Demonstration Video</a>
+    </div>
+    </div></li>
+
+  <li><a href="https://quadsat.com/sectors/"><div class="dropdown">
+    <button class="dropbtn">Sectors<img src="Quadsatarrow.png"></button></a>
+    <div class="dropdown-content">
+      <a href="https://quadsat.com/sectors/satellite-communication/">Satellite Communication</a>
+      <a href="https://quadsat.com/sectors/defence-security/">Defence & Security</a>
+      <a href="https://quadsat.com/sectors/wireless/">Wireless</a>
+      <a href="https://quadsat.com/sectors/academia/">Academia</a>
+    </div>
+  </div> </li>
+
+  <li><a href="https://quadsat.com/information-resources/"><div class="dropdown">
+    <button class="dropbtn">
+  Information & Resources<img src="Quadsatarrow.png"></button></a>
+    <div class="dropdown-content">
+      <a href="https://quadsat.com/information-resources/events/">Events</a>
+    </div>
+  </div> </li>
+
+  <li><a href="https://quadsat.com/about/"><div class="dropdown">
+    <button class="dropbtn">About<img src="Quadsatarrow.png"></button></a>
+    <div class="dropdown-content">
+      <a href="https://quadsat.com/about/management/">Management</a>
+      <a href="https://quadsat.com/about/investors/">Investors</a>
+      <a href="https://quadsat.com/about/news/">News</a>
+      <a href="https://quadsat.com/about/contact/">Contact</a>
+    </div>
+  </div> </li>
+
+  <li><a href="https://quadsat.com/careers/"> Careers </a> </li>
+  <li><button class="btn" type="submit" onclick="openLink()">Request Demo</button></li>
+      </ul>
+  </nav>
+
+<!--Video section-->
+
+<section class="Overskrift">
+<h1> Process </h1><br><br><br>
+</section>
+
+<main class= "main">
+
+<img class="ULFoto" src="Ul.png">
+
+<div class="container1">
+<h2> Pre-test </h2><br><br>
+<p> QuadSAT’s technician arrives to the antenna site. <br>
+Mission characteristics such as antenna size and frequency data is entered, <br>
+into QuadSAT’s custom pre-flight software prior to testing. </p><br><br><br>
+</div>
+
+<img class="DroneFoto" src="Drone.png">
+<div class="container2">
+<h2> In test </h2><br><br>
+<p> Based on QuadSAT’s software, the drone measurement system lifts off, <br>
+and automatically performs the data acquisition flight pattern. <br>
+The automation provided in QuadSAT’s solution ensures repeatable, <br>
+and accurate results with every flight. </p><br><br>
+</div>
+
+<img class="KodeFoto" src="Kode.png">
+<div class="container3">
+<h2> Post test </h2><br><br><br>
+<p> QuadSAT’s software delivers a detailed report based on customer requirements. <br>
+All test results are delivered in the same data format, <br>
+which allows for inter-range comparisons. </p><br><br><br>
+</div>
+
+</main>
+
+<!--Kontakt formular-->
+
+<div class="container">
+    <h2>Contact</h2>
+    <p>Get in touch for updates, enquiries or to request a demo</p>
+      <form id="QSForm" onsubmit="return validation()">
+        <input type="text" id="fname" name="firstname" placeholder="Your name"><br>
+        <input type="text" id="email" name="emailaddress" placeholder="Your e-mail"><br>
+        <input type="text" id="phone" name="phonenumber" placeholder="Your phone number"><br>
+        <textarea id="subject" name="subject" placeholder="Write your message here"></textarea><br>
+        <input type="submit" value="Submit"></input>
+      </form>
+      <div id="error"></div>
+</div>
+
+<!--Slideshow container-->
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <q>Did you know that QuadSAT testing systems saves you plenty of time and money?</q>
+</div>
+
+<div class="mySlides">
+  <q>Did know you that QuadSAT has hired a diverse set of professisonals and experts to work for the company?</q>
+</div>
+
+<div class="mySlides">
+  <q>Did you know that customer sastifaction is QuadSAT´s highest priority?</q>
+</div>
+
+<a class="prev" onclick="plusSlides(1)">❮</a>
+<a class="next" onclick="plusSlides(-1)">❯</a>
+
+
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<!--Back to top button-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"> To the top</button>
+
+<!--Footer-->
+
+<footer class="footer">
+<a href="https://quadsat.com/"><img class="logowhite" src="QuadsatFooter.png"></a><br>
+<ul><a href="https://quadsat.com/products/">Products</a>
+  <li><a href="https://quadsat.com/products/testing-as-a-service/">Testing as a Service</a></li>
+  <li><a href="https://quadsat.com/products/quadsat-system/">QuadSat System</a></li>
+</ul>
+<ul><a href="#inprogress">Process</a>
+  <li><a href="#">Testing Process</a></li>
+  <li><a href="#">Demonstration Video</a></li>
+  <li></li>
+</ul>
+<ul><a href="https://quadsat.com/sectors/">Sectors</a>
+  <li><a href="https://quadsat.com/sectors/satellite-communication/">Satellite Communication</a></li>
+  <li><a href="https://quadsat.com/sectors/defence-security/">Defence & Security</a></li>
+  <li><a href="https://quadsat.com/sectors/wireless/">Wireless</a></li>
+  <li><a href="https://quadsat.com/sectors/academia/">Academia</a></li>
+</ul>
+<ul><a href="https://quadsat.com/information-resources/">Information & Resources</a>
+  <li><a href="https://quadsat.com/information-resources/events/">Events</a></li>
+</ul>
+<ul><a href="https://quadsat.com/about/">About</a>
+  <li><a href="https://quadsat.com/about/management/">Management</a></li>
+  <li><a href="https://quadsat.com/about/investors/">Investors</a></li>
+  <li><a href="https://quadsat.com/about/news/">News</a></li>
+  <li><a href="https://quadsat.com/careers/"> Careers </a></li>
+  <li><a href="https://quadsat.com/about/contact/">Contact</a></li>
+</ul>
+</footer>
+
+  </body>
+</html>
